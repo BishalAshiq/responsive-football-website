@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    background-color: rgba(0, 26, 255, 0.815);
+}
+.top-bannar{
+    display: flex;
+}
+.title{
+    background-position: right;
+   font-size: 18px; 
+}
+.top-bannar .title h1{
+    text-align: justify;
+    color: white;
+    font-size: 150px;
+    padding: 30px;
+}
+.title a{
+    text-decoration: none;
+    color: azure;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+.fa-arrow-right{
+    color: black;
+}
+.top-image{
+    width: 10px;
+    
+}
+
+/* ---------------Players Description -------- */
+
+.players{
+   display: grid;
+   grid-template-columns: repeat(3, 2fr);
+   grid-row-gap: 20px;
+  margin-left: 150px;
+   margin-top: 30px;
+   margin-right: 10px;
+   
+}
+
+.player {
+    display: flex;
+    text-align: left;
+    width: auto;
+    justify-content:center;
+    box-shadow: opx 0px 0px 10px;
+}
+
+.player-info {
+    border: 4px solid rgb(240, 227, 227);
+    border-radius: 10px; 
+    
+}
+
+.player-info img {
+    width: 280px;
+    border-radius: 15px;
+    
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .player-info h3{
+      margin-left: 65px;
+  }
+  
+.player .player-info{
+   
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    line-height: 20px;
+    margin: 8px;
+    margin-bottom: 50px;
+}
+
+/* -------------------------------6th section ---------------- */
+
+section {
+    display: block;
+}
+.experience-items{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+.half-width{
+    background-position: left;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+.experience-item .half-width h1{
+    font-size: 70px;
+}
+.experience-items img{
+    width: 500px;
+}
+.experience-items .half-width .Live{
+    text-decoration: none;
+    color: white;
+    background-color: darkorange;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+/* ----------------------------Logo --------------------- */
+.logo{
+    margin-left:200px;
+}
+
+/* ---------------------Icon ---------------------- */
+.icons{
+    margin-left: 500px;
+    
+}
+.icon{
+    text-decoration: none;
+    color: gray;
+}
+.icons .icon a{
+    color: gray;
+    margin-left: 4px;
+    margin-right: 4px;
+}
