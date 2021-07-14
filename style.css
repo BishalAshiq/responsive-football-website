@@ -47,6 +47,12 @@ section{
     margin-top: 70px;
     margin-right: 40px;
 }
+.bannar{
+    transition: width 10s, height 5s, transform 3s;
+}
+.top-bannar .bannar:hover{
+    transform: scale(0.20) rotate(-360deg);
+}
 
 /* ---------------Players Description -------- */
 
@@ -155,4 +161,7 @@ section {
     color: gray;
     margin-left: 4px;
     margin-right: 4px;
+}
+.icons .icon a:hover{
+   color: darkcyan;
 }
