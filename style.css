@@ -2,37 +2,50 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.container1{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-row-gap: 10px;
-    background-color: rgba(0, 26, 255, 0.815);
+section{
+   display: block;
+   
 }
 .top-bannar{
     display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
+
 .title{
-    background-position: right;
-   font-size: 18px; 
+    background-position: left;
+    text-align: justify;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 10px;
+    margin-bottom: 100px;
 }
 .top-bannar .title h1{
-    text-align: justify;
-    color: white;
-    font-size: 150px;
-    padding: 30px;
+    font-size: 70px;
+    margin-left: 40px;
 }
-.title a{
+.top-bannar .title a{
     text-decoration: none;
     color: azure;
     background-color: chocolate;
+    padding: 10px 40px;
     border-radius: 5px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+.top-bannar .title a:hover {
+         background-color: darkgoldenrod;
 }
 .fa-arrow-right{
     color: black;
 }
-.top-image{
-    width: 10px;
-    
+.top-bannar img{
+ width: 500px;
+    margin-top: 70px;
+    margin-right: 40px;
 }
 
 /* ---------------Players Description -------- */
@@ -64,7 +77,6 @@ body{
 .player-info img {
     width: 280px;
     border-radius: 15px;
-    
     margin-top: 15px;
     margin-left: 10px;
   }
@@ -106,25 +118,29 @@ section {
 .experience-item .half-width h1{
     font-size: 70px;
 }
-.experience-items img{
-    width: 500px;
-}
+
 .experience-items .half-width .Live{
     text-decoration: none;
     color: white;
     background-color: darkorange;
-    padding: 5px;
+    padding: 10px 40px;
     border-radius: 2px;
+}
+.experience-items .half-width .Live:hover{
+    background-color: rgb(255, 251, 0);
+}
+.experience-items img{
+    width: 500px;
 }
 
 /* ----------------------------Logo --------------------- */
 .logo{
-    margin-left:200px;
+    margin-left:250px;
 }
 
 /* ---------------------Icon ---------------------- */
 .icons{
-    margin-left: 500px;
+    margin-left: 610px;
     
 }
 .icon{
