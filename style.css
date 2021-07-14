@@ -37,13 +37,13 @@ section{
     margin-bottom: 60px;
 }
 .top-bannar .title a:hover {
-         background-color: darkgoldenrod;
+     background-color: darkgoldenrod;
 }
 .fa-arrow-right{
     color: black;
 }
 .top-bannar img{
- width: 500px;
+    width: 500px;
     margin-top: 70px;
     margin-right: 40px;
 }
@@ -54,7 +54,7 @@ section{
    display: grid;
    grid-template-columns: repeat(3, 2fr);
    grid-row-gap: 20px;
-  margin-left: 150px;
+  margin-left: 120px;
    margin-top: 30px;
    margin-right: 10px;
    
@@ -91,7 +91,7 @@ section{
     padding: 20px;
     line-height: 20px;
     margin: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 /* -------------------------------6th section ---------------- */
@@ -101,9 +101,10 @@ section {
 }
 .experience-items{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 40px;
     padding-right: 10px;
+    margin-top: 40px;
     margin-bottom: 100px;
     margin-left: 30px;
 }
@@ -124,13 +125,16 @@ section {
     color: white;
     background-color: darkorange;
     padding: 10px 40px;
-    border-radius: 2px;
+    border-radius: 5px;
+    
 }
 .experience-items .half-width .Live:hover{
     background-color: rgb(255, 251, 0);
+    color: darkblue;
 }
 .experience-items img{
     width: 500px;
+    border-radius: 10px;
 }
 
 /* ----------------------------Logo --------------------- */
