@@ -200,4 +200,20 @@ section {
     grid-template-columns: repeat(1, 1fr);
 }
 }
+  
+/* -----Tablet Devices ------ */
+@media only screen and (main-width:688px) and (max-width:992px) {
+section{
+    width: 100%;
+}
+.top-bannar, .player, .experience-items, .half-width, .logo, .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title, .players, .icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+} 
     
