@@ -54,6 +54,7 @@ section{
     transform: scale(0.20) rotate(-360deg);
 }
 
+
 /* ---------------Players Description -------- */
 
 .players{
@@ -100,6 +101,7 @@ section{
     margin-bottom: 5px;
 }
 
+
 /* -------------------------------6th section ---------------- */
 
 section {
@@ -143,15 +145,19 @@ section {
     border-radius: 10px;
 }
 
+
 /* ----------------------------Logo --------------------- */
+
 .logo{
     margin-left:250px;
 }
 
+
 /* ---------------------Icon ---------------------- */
+
 .icons{
     margin-left: 610px;
-    
+
 }
 .icon{
     text-decoration: none;
@@ -164,4 +170,10 @@ section {
 }
 .icons .icon a:hover{
    color: darkcyan;
+}
+
+/* ---------Footer-Item ----------- */
+
+footer{
+    margin-left: 580px;
 }
