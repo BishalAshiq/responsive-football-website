@@ -3,14 +3,40 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* ------------Navigation ------ */
+nav{
+    background-color: rgba(1, 101, 252, 0.952);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    border: 1px solid rgba(1, 101, 252, 0.952);
+    box-shadow: 0 10px rgba(1, 101, 252, 0.952);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+nav a:hover{
+    background-color: darkgray;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+
+/* ----------Top Bannar ---------- */
+
 section{
    display: block;
-   
 }
+
 .top-bannar{
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    background-color: rgba(1, 101, 252, 0.952);
     padding-top: 40px;
     margin-top: 0;
     margin-bottom: 40px;
@@ -24,10 +50,12 @@ section{
     padding-right: 10px;
     margin-bottom: 100px;
 }
+
 .top-bannar .title h1{
     font-size: 70px;
     margin-left: 40px;
 }
+
 .top-bannar .title a{
     text-decoration: none;
     color: azure;
@@ -37,20 +65,25 @@ section{
     margin-left: 40px;
     margin-bottom: 60px;
 }
+
 .top-bannar .title a:hover {
-     background-color: darkgoldenrod;
+     background-color: rgb(233, 172, 17);
 }
+
 .fa-arrow-right{
     color: black;
 }
+
 .top-bannar img{
     width: 500px;
     margin-top: 70px;
     margin-right: 40px;
 }
+
 .bannar{
     transition: width 10s, height 5s, transform 3s;
 }
+
 .top-bannar .bannar:hover{
     transform: scale(0.20) rotate(-360deg);
 }
@@ -138,8 +171,8 @@ section {
     
 }
 .experience-items .half-width .Live:hover{
-    background-color: rgb(255, 251, 0);
-    color: darkblue;
+    background-color: rgb(255, 166, 0);
+    color: rgb(245, 245, 250);
 }
 .experience-items img{
     width: 500px;
@@ -153,22 +186,23 @@ section {
     margin-left:250px;
 }
 
-
 /* ---------------------Icon ---------------------- */
 
 .icons{
     margin-left: 610px;
-
 }
+
 .icon{
     text-decoration: none;
     color: gray;
 }
+
 .icons .icon a{
     color: gray;
     margin-left: 4px;
     margin-right: 4px;
 }
+
 .icons .icon a:hover{
    color: darkcyan;
 }
